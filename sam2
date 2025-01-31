@@ -1,0 +1,6 @@
+function greet($personName) {
+  return "Hello, " . $personName . "!";
+}
+
+$greeting = greet("Jane");
+echo $greeting . "\n";
